@@ -8,7 +8,7 @@
 
 
 
-// singleton
+// singleton and nonsingleton
 // Object.create ------> Constructor method:
 
 

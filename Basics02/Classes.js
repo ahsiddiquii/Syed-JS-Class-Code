@@ -10,17 +10,17 @@
 
 
 
-// class Person {
-//     constructor(name, age, phone, address, skinColor, vehicle){
-//         this.name = name;
-//         this.age = age;
-//         this.phone = phone;
-//         this.address = address;
-//         this.skinColor = skinColor;
-//         this.vehicle = vehicle;
-//     }
-// }
+class Person {
+    constructor(name, age, phone, address, skinColor, vehicle){
+        this.name = name;
+        this.age = age;
+        this.phone = phone;
+        this.address = address;
+        this.skinColor = skinColor;
+        this.vehicle = vehicle;
+    }}
   
-//   const Syed = new Person("Syed",20, "Nokia", "Canada-1", "Brown", "Honda" );
+  const Syed = new Person("Syed",20, "Nokia", "Canada-1", "Brown", "Honda" );
+  const ABduk = new Person("Abdul",20, "Nokia", "Canada-1", "Brown", "Honda" );
 
-//   console.log(Syed.name)
+  console.log(Syed.name)

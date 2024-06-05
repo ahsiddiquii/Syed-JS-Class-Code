@@ -236,7 +236,7 @@ let num = 342.8643543;
 
 // EXAMPLE: 5
 // let array_9 =
-    // ["Shayan", "Shazan", "Rafey", "Ahmed", "Shazan", "Faizan", "Hassan"];
+// ["Shayan", "Shazan", "Rafey", "Ahmed", "Shazan", "Faizan", "Hassan"];
 // let array_10 = array_9.indexOf("Ahmed", -5);
 // console.log(array_10);
 // OUTPUT: 3 // "Ahmed" is present at index number 3 when we find from - 5 index(which is 2 index in positive).
@@ -297,3 +297,45 @@ let num = 342.8643543;
 // console.log(array);
 
 
+// Objects ------------------------------------------
+
+
+const user = {
+    name: "Syed",
+    age: 20,
+    email: "syed@20haseeb",
+    phone: "0300-1234567",
+};
+
+const syedEhtisham = {
+    name: "Syed",
+    age: 20,
+    email: "syed@20haseeb",
+    phone: "03001234567",
+    bloodGroup: "A+"
+};
+
+const car = {
+    name: "Civic",
+    model: "2010",
+    CarPrice: 1000000,
+    transportationCost: 20000,
+    taxes: 3000,
+    owner: {
+        name: "Syed",
+        age: 20,
+        email: "syed@20haseeb",
+        phone: "03001234567",
+        bloodGroup: "A+"
+    },
+    sound: function () {
+        console.log("beep beep");
+    },
+    totalCost: function () {
+        console.log(this.CarPrice + this.transportationCost + this.taxes);
+    },
+    colors: ["Black", "Blue", "White"],
+    getPrice: function () {
+        console.log(this.price);  // 1000000
+    }
+}
