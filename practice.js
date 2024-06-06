@@ -300,42 +300,89 @@ let num = 342.8643543;
 // Objects ------------------------------------------
 
 
+// const user = {
+//     name: "Syed",
+//     age: 20,
+//     email: "syed@20haseeb",
+//     phone: "0300-1234567",
+// };
+
+// const syedEhtisham = {
+//     name: "Syed",
+//     age: 20,
+//     email: "syed@20haseeb",
+//     phone: "03001234567",
+//     bloodGroup: "A+"
+// };
+
+// const car = {
+//     name: "Civic",
+//     model: "2010",
+//     CarPrice: 1000000,
+//     transportationCost: 20000,
+//     taxes: 3000,
+//     owner: {
+//         name: "Syed",
+//         age: 20,
+//         email: "syed@20haseeb",
+//         phone: "03001234567",
+//         bloodGroup: "A+"
+//     },
+//     sound: function () {
+//         console.log("beep beep");
+//     },
+//     totalCost: function () {
+//         console.log(this.CarPrice + this.transportationCost + this.taxes);
+//     },
+//     colors: ["Black", "Blue", "White"],
+//     getPrice: function () {
+//         console.log(this.price);  // 1000000
+//     }
+// }
+
+// const JsUser = {
+// name: "Ali",
+// "full name": "Syed Ali",
+// age: 18,
+// location: "Jaipur",
+// email: "hitesh@google.com",
+// isLoggedIn: false,
+// lastLoginDays: ["Monday", "Saturday"]
+// }
+
+// console.log(JsUser.email)
+// console.log(JsUser["email"])
+// console.log(JsUser["fullname"])
+// JsUser["full name"]= "Abdul";
+// console.log(JsUser["full name"])
+
+
 const user = {
-    name: "Syed",
-    age: 20,
-    email: "syed@20haseeb",
-    phone: "0300-1234567",
+    name : "Abdul",
+    age : 20,
 };
 
-const syedEhtisham = {
-    name: "Syed",
-    age: 20,
-    email: "syed@20haseeb",
-    phone: "03001234567",
-    bloodGroup: "A+"
+// Object.freeze(user);
+// user.name = "Ali";
+// console.log(user.name)
+
+user.greeting = function(){
+    console.log("Hello World");
 };
 
-const car = {
-    name: "Civic",
-    model: "2010",
-    CarPrice: 1000000,
-    transportationCost: 20000,
-    taxes: 3000,
-    owner: {
-        name: "Syed",
-        age: 20,
-        email: "syed@20haseeb",
-        phone: "03001234567",
-        bloodGroup: "A+"
-    },
-    sound: function () {
-        console.log("beep beep");
-    },
-    totalCost: function () {
-        console.log(this.CarPrice + this.transportationCost + this.taxes);
-    },
-    colors: ["Black", "Blue", "White"],
-    getPrice: function () {
-        console.log(this.price);  // 1000000
-    }
-}
+user.name = "Haseeb"
+
+user.greeting();
+
+// let a = "Ali";
+// console.log(a)
+
+// Making of a function
+// function abc (){
+//     console.log("Hello World");
+// };
+// Calling of a function;
+// abc();
+
+
+
