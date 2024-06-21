@@ -30,7 +30,7 @@ String Concatenation. ✅
 String Interpolation / Template literalls / Template Strings. ✅
 String Methods / Functions: ✅
     (
-      1-  length, 2- toUpperCase(), 3- toLowerCase(), 4- charAt(0), 5-indexOf("x"), 6- trim(), 7- slice(4, 19), 8-replace(), 9-includes('FULL STACK'), 10-split(), 
+      1-  length, 2- toUpperCase(), 3- toLowerCase(), 4- charAt(), 5-indexOf(), 6- trim(), 7- slice(), 8-replace(), 9-includes(), 10-split(), 
     )
 )
 
