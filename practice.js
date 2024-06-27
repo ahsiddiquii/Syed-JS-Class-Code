@@ -394,11 +394,11 @@ let num = 342.8643543;
 // addTwoNumbers("z","a");
 
 // const name = prompt("Enter your name");
-const userInput = prompt("Please enter your name:");
-function myName(a) {
-    console.log(`Hello ${a}`)
-};
-myName(userInput);
+// const userInput = prompt("Please enter your name:");
+// function myName(a) {
+//     console.log(`Hello ${a}`)
+// };
+// myName(userInput);
 // console.log(userInput);
 
 // function calculateCartPrice(val1, val2, ...val3){
@@ -407,6 +407,14 @@ myName(userInput);
 // console.log(val3)
 // };
 // calculateCartPrice(10,20,30,40,50,50,70,80);
+
+function defaultParameters (fName, lName = " Siddiqui"){
+    const fullName = fName + lName;
+    console.log(fullName);
+}
+defaultParameters("haseeb", " Butt");
+
+
 
 
 
