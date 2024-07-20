@@ -739,18 +739,211 @@ let isLoggedIn = false;
 //     console.log("Don't have user email");
 // };
 
-const req = {
-    files: {
-        coverImage: [],
-        avatar: ["Avatar"],
-    }
-};
+// const req = {
+//     files: {
+//         coverImage: [],
+//         avatar: ["Avatar"],
+//     }
+// };
 
-if (req.files && Object.keys(req.files).length == 2 && req.files.coverImage.length == 1 && req.files.avatar.length == 1) {
-    console.log("Success")
-} else {
-    console.log("Error")
-}
+// if (req.files && Object.keys(req.files).length == 2 && req.files.coverImage.length == 1 && req.files.avatar.length == 1) {
+//     console.log("Success")
+// } else {
+//     console.log("Error")
+// }
+
+// console.log("hi")
+// for loop: 
+
+// for (let i = 0; i <= 5; i++) {
+//     console.log(i);
+// }
+
+
+// for (let i = 1; i <= 10; i++) {
+//console.log(`Outer loop value: ${i}`);
+//    for (let j = 1; j <= 10; j++) {
+//console.log(`Inner loop value ${j} and inner loop ${i}`);
+//console.log(i + '*' + j + ' = ' + i*j );
+//    }
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log("Table of " + i);
+//     for (let j = 1; 1 <= 10; j++) {
+//         console.log(i + '*' + j + ' = ' + i * j);
+//                   // 2 * 1 = 2
+//     }
+// };
+
+// Break & Continue:
+
+// for (let value = 1; value <= 15; value++) {
+//     console.log(value);
+//     if (value == 11) {
+//         console.log("11 is the require number");
+//         break;
+//     }
+// }
+// let myArray = ['flash', "batman", "superman"];
+// length = 3 
+// indexs : 0,1,2 
+// 3 < 3 
+// for (let i = 0; i < myArray.length; i++) {
+//     const element = myArray[i];
+//     console.log(element);
+// }
+
+
+// While;
+
+
+// let myArray = ['flash', "batman", "superman"];
+
+// let arr = 0
+// while (arr < myArray.length) {
+//     console.log(`Value is ${myArray[arr]}`);
+//     arr = arr + 1;
+// }
+
+
+// let array = ["First", "Second", "Third"];
+// let i = 3;
+// // 3 < 3 = true 
+// while (i > array.length) {
+//     console.log(array[i])
+//     i++
+// };
+
+
+// Do while loop:
+
+// let score = 11
+
+// do {
+//     console.log(`Score is ${score}`);
+//     score++
+// } while (score <= 10);
+
+// let score = 15
+
+// do {
+//     console.log(score);
+//     score++
+// } while (score <= 11);
+
+
+// const arr = [0, 1, 2, 3, 4, 5];
+
+// for (const ali of arr) {
+//     console.log(ali);
+// };
+
+// let name = "Syed Ehtisham Rizvi";
+// for (const haseeb of name) {
+//     console.log(haseeb)
+// }
+
+// let obj= {
+//     name: "Ali",
+//     age: 21,
+//     phone: "0000",
+// };
+
+// for(const [key, value] of obj){
+//     console.log(key, value);
+// }
+
+
+// For in loop :
+// const obj = {
+//     name : "Ali",
+//     age: 21,
+//     phone : "000",
+// };
+
+// for(const ethi in obj){
+//    console.log(ethi, obj[ethi]);
+// } 
+
+// let array = [1,2,3,4,5,6];
+
+// for(const i in array){
+//     console.log(array[i])
+// }
+
+// let array = [1,2,3,4,5,6,7,8];
+// array.forEach( (ali) => console.log(ali) );
+
+let users = [
+    {
+        name: "Ali",
+        age: 22,
+        City: "K"
+    },
+    {
+        name: "Syed",
+        age: 22,
+        City: "P"
+    },
+    {
+        name: "Ethi",
+        age: 22,
+        City: "C"
+    },
+    {
+        name: "Rizvi",
+        age: 22,
+        City: "D"
+    },
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
