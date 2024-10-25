@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to Your Account</h2>
+        <form id="form">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="show-password">
+                <input type="checkbox" id="show-password" onclick="togglePasswordVisibility()">
+                <label for="show-password">Show Password</label>
+            </div>
+
+            <p id="error" ></p>
+
+            <div class="forget-password">
+                <a onclick="sendPasswordEmail()">Forgot Password?</a>
+            </div>
+            
+            <button type="submit">Login</button>
+        </form>
+        <div class="signup-link">
+            Don't have an account? <a href="../Signup Pgae/index.html">Sign up here</a>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="./service/emailJS.config.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "nxxptvoVw6p3o2Qd-",
+      });
+   })();
+</script> -->
+</body>
+</html>

@@ -1,0 +1,110 @@
+1- Run JS without HTML file. (node) ✅
+
+2- Let, var & const 
+(
+Creating and Assigning Variables, ✅
+Assigning operator, ✅
+Variables Naming conventions, ✅
+difference b/w var, let & const: ✅
+Block Scope, ✅
+Global Scope, ✅
+Redeclared, ✅
+hoisting, ✅
+Note : prefered not to declared variable using var keyword,
+)
+
+3- Data Types:
+(
+Statically OR Dynamically Typed Language. ✅
+Premitiveds & Non Premitives / Reference Data Types. ✅
+typeof(variable) ✅
+Conversion of String, boolean, null, undefined in to numbers.
+Conversion of String and numbers in to boolean.
+Conversion of numbers in to string.
+Operators, opearnds ✅
+)
+
+4- Strings:
+(
+String Concatenation. ✅
+String Interpolation / Template literalls / Template Strings. ✅
+String Methods / Functions: ✅
+    (
+      1-  length, 2- toUpperCase(), 3- toLowerCase(), 4- charAt(), 5-indexOf(), 6- trim(), 7- slice(), 8-replace(), 9-includes(), 10-split(), 
+    )
+)
+
+5- Number and Maths:
+(
+Basic mathematics operations. ✅
+Numbers Methods / Functions: ✅
+    {
+        toString(), toFixed(1 /2 /3), toLocaleString()
+    }
+Maths: Math is built in libraray comes with in JS. ✅
+Maths Functions / Methods ✅
+    {
+        Math.PI, Math.round(), Math.ceil(), Math.floor(), Math.min(3, 5 ,7 ,8 ), Math.max(3, 5 ,7 ,8 ), Math.random()*10 + 1, Math.trunc(13.37), Math.abs(-4)
+    }
+)
+
+
+
+6- Stack & Heap Memory:
+(
+Primitives store in Stack. ✅
+Non stores in Heap. ✅
+)
+
+7- Date and time in depth in javascript. ✅
+
+8- Array in depth:✅
+ Array Methods.✅
+
+
+8- Objects in depth: ✅
+ Singleton and nonsingleton objects. ✅
+ iife Functions. ✅
+ Default parameters in Function. ✅
+ Anonymus Function. ✅
+ Object de-structure and JSON API intro . ✅
+ Arrow Function. 
+ this keyword (When we refer current context we use this).
+ Implicit and Explicit Return.
+
+
+9-  Javascript execute code + call stack (LIFO)
+ JS execution context. (2 Phases)
+ Global Execution/Environmet Context.
+ Function Execution Context.
+ Memory Creation phase.
+ Execution Phase.
+
+JavaScript execution context means aapny JS ki jo bhi file bnaye hay wo run kesy hogi, JS file 2 phase main run hoti hay. Jab bhi hum koi bhi code dytay hay JS ka run honay ky liye to sub say pehlay "Global Execution Context" zaroor banta hay aur jahan bhi GEC banay ga wo isko refer krdia jata hay ye aik variable hota hay JS main "this" wo GEC is "this" main rakh dia jata hay.
+Ab for example agar aap nay browser main code run kia hay to browser main execution context is different aur "this" alag behave krega aur agar hum node kay through run kr rahay to wahan "this" ka behaviour alag hoga, browser main "this" refer to window object. This means browser ka EC alag hota hay Node,bun,dino inka execution context alag hota hay, but browser is most important to understand... 
+ab ye pora aik thread kay under execute hota hay as you JS is a single threaded iskay andar aik process hota hay uskay tehat sub kaam krta hay.
+Hamaray pass 3 trh kay execution context hotay hain.
+1- Global Execution Context.
+2- Function / Functional Executon Context.
+3- Eval Execution Context.
+
+Usually no:1 and no:2 execution context hotay hain but kuch jagha no:3 bhi hota hay like in mongoose.
+
+Now see how JS code run:
+It run in 2 phases, No: 1 is memory creation phase, No:2 is Execution Phase. In Memory creation phase jagha alocate hoti hay like jo bhi aapny variables ya functions wagera bnaye hay uskay liye. Aur sub exucution like code main kahin kuch calculation horahi hay tou wo execution phase main hogi.  
+
+
+10- Control Flow / Logic Flow.
+ if else statements
+ if else else if statements.
+ nested ifs 
+ Implicit or Explicit scope in if statements
+ switch statements
+ cases, break keyword, default in switch statements.
+ Truthy and falsy values.
+ Nullish Coalescing Operator (??): null undefined
+ Ternery operator.
+
+
+
+

@@ -1,0 +1,16 @@
+**Event Propagation** is like playing a game of "pass the message" in a classroom.
+
+Imagine you're in a classroom with three rows of students. The teacher wants to pass a message to the last row, but they decide to start from the front row.
+
+- **Step 1: Capturing (Tunnel Phase)**: The teacher whispers the message to the first student in the front row. That student doesn’t say anything but just listens. The message is passed quietly from the first student to the next one behind them, all the way to the last row. This is like the event "traveling down" through the students to find its target.
+
+- **Step 2: Target**: Now, the message has reached the last row, where it was meant to go. The student in the last row, who’s the target, receives the message and reacts by writing it down on a piece of paper.
+
+- **Step 3: Bubbling**: Once the last student has written the message, they start passing it back up towards the front, student by student, so everyone knows what the message was. This is like the event "bubbling back up" through the students.
+
+In the DOM (Document Object Model), when something happens, like clicking a button (the event), it goes through a similar process:
+1. The event starts at the top of the web page (capturing).
+2. It travels down to the element that was clicked (target).
+3. Then, it moves back up to the top of the web page (bubbling).
+
+Just like in the classroom, every element (student) has a chance to hear the event and react to it when it’s their turn, whether the event is moving down (capturing) or back up (bubbling).

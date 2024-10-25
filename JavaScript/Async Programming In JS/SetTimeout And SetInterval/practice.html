@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="h1">Hello Dear,</h1>
+    <button id="button">Stop</button>
+
+    <script>
+        const h1 = document.getElementById("h1");
+
+        let change = setInterval(() => {
+            if(h1.innerText === "Good Byeeeeee"){
+                h1.innerText = "Hello Dear"
+            }else {
+                h1.innerText = "Good Byeeeeee"
+            }
+            
+        }, 1000);
+
+        document.getElementById('button').addEventListener("click", () => {
+            clearInterval(change);
+        })
+
+
+    </script>
+
+</body>
+
+</html>
